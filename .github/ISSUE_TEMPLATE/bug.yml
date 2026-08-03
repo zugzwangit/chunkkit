@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a reproducible ChunkKit defect
+labels: [bug]
+body:
+  - type: textarea
+    attributes: { label: Description }
+    validations: { required: true }
+  - type: input
+    attributes: { label: ChunkKit and Python versions }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Minimal reproduction }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Expected and actual behavior }
+    validations: { required: true }

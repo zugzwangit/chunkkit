@@ -1,0 +1,13 @@
+name: Integration request
+description: Propose a connector, parser, model, or vector-store plugin
+labels: [integration]
+body:
+  - type: input
+    attributes: { label: Service or format }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Official API and authentication model }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Pagination, deletion, and ACL behavior }
+    validations: { required: true }

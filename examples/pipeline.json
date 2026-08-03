@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "chunker": "recursive",
+  "target": {
+    "tokenizer": "unicode",
+    "role": "generic",
+    "max_input_tokens": 8192,
+    "reserved_tokens": 1024,
+    "safety_margin_tokens": 64
+  },
+  "chunk_size": 512,
+  "overlap": 32,
+  "chunker_options": {},
+  "allow_incomplete_acl": false
+}

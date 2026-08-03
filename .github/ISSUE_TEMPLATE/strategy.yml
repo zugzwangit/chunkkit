@@ -1,0 +1,10 @@
+name: Chunking strategy proposal
+description: Propose a new chunker or research method
+labels: [enhancement, research]
+body:
+  - type: textarea
+    attributes: { label: Algorithm and references }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Determinism, dependencies, and evaluation plan }
+    validations: { required: true }
